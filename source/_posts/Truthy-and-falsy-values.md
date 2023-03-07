@@ -2,7 +2,7 @@
 title: Truthy-and-falsy-values
 writer: Sanjeev Kumar
 date: 2023-02-26 10:27:17
-tags: [Truthy&falsy]
+tags: [Truthy & Falsy values]
 ---
 When we convert a non-boolean value to a boolean the result we will get is either `true` or `false`. So in javascript, a value of any datatype will be either a truthy or falsy.
 
@@ -45,11 +45,11 @@ to check if a value is truthy or falsy we can use the Boolean method by passing 
 ~~~js
 let value1 = Boolean('');
 
-console.log(value) // Expected output 'false'
+console.log(value1) // Expected output 'false'
 
 let value2 = Boolean('Hello');
 
-console.log(value) // Expected output 'true'
+console.log(value2) // Expected output 'true'
 ~~~
 
 ***
