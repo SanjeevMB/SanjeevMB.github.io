@@ -2,7 +2,7 @@
 title: PassByValueAndPassByRefrence
 writer: Sanjeev Kumar
 date: 2023-03-02 12:04:04
-tags: [CopyByValue&CopyByRef]
+tags: [Pass-By-Value & Pass-By-Ref]
 ---
 # Pass by value and Pass by reference;
 - there are two types of data in any programming language.
