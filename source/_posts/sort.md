@@ -29,7 +29,7 @@ console.log(array1);
 - The compare function takes two arguments for comparison. and sort the array according to the comparison result.
 - All the undefined elements move to the end of the array.
 - All the empty elements move at the end after undefined elements.
-- `true` `false` `null` these are all first converted to the string and then sorted by the `UTF-16`
+- `true` `false` `null` these are all firstElement converted to the string and then sorted by the `UTF-16`
 
 ~~~JS
 // Strings
@@ -127,13 +127,13 @@ let objectArray = [
 
 // Applying sort
 
-objectArray.sort ((a, b) => {
+objectArray.sort ((firstElement, secondElement) => {
 
-    if (a.first_name > b.first_name) {
+    if (firstElement.first_name > secondElement.first_name) {
 
         return 1;
 
-    } else if (a.first_name < b.first_name) {
+    } else if (firstElement.first_name < secondElement.first_name) {
 
         return -1;
 
@@ -227,22 +227,23 @@ let info = [
 
 // Applying sort
 
-info.sort ((a, b) => {
+info.sort ((firstElement, secondElement) => {
 
-    if (a.name < b.name) {
+    if (firstElement.name < secondElement.name) {
 
         return -1;
 
-    } else if (a.name > b.name) {
+    } else if (firstElement.name > secondElement.name) {
 
         return 1;
 
-    } else if ( a.name == b.name) {
-        if (a.roll_no < b.roll_no) {
+    } else if ( firstElement.name == secondElement.name) {
+        
+        if (firstElement.roll_no < secondElement.roll_no) {
 
             return -1;
 
-        } else if (a.roll_no > b.roll_no) {
+        } else if (firstElement.roll_no > secondElement.roll_no) {
 
             return 1;
 
